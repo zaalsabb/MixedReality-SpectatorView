@@ -15,9 +15,34 @@ MonoBehaviour:
   assets:
   - AssetId:
       guid:
+        m_storage: 0161d805-a376-4c08-9bef-00bfe00793f5
+      fileIdentifier: 11400000
+    Asset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  - AssetId:
+      guid:
+        m_storage: 125cb55b-44b2-4c43-9318-1402bc6200e6
+      fileIdentifier: 11400000
+    Asset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  - AssetId:
+      guid:
+        m_storage: 2e498d1c-8094-9104-79dc-3e1b768306a4
+      fileIdentifier: 11400000
+    Asset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  - AssetId:
+      guid:
+        m_storage: 5302535a-f104-4152-a457-ed104f1f4b91
+      fileIdentifier: 11400000
+    Asset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  - AssetId:
+      guid:
         m_storage: 6a84f857-bec7-e734-5843-ae29404c57ce
       fileIdentifier: 11400000
     Asset: {fileID: 11400000, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
+  - AssetId:
+      guid:
+        m_storage: 8a89fa14-b10d-46a9-9122-fd4f73fca9a2
+      fileIdentifier: 11400000
+    Asset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   - AssetId:
       guid:
         m_storage: 8f255851-3126-7564-cab5-bbdafd36a94f
@@ -43,6 +68,11 @@ MonoBehaviour:
         m_storage: d94d0d64-ec35-45b4-08d5-621e7d27cf96
       fileIdentifier: 11400000
     Asset: {fileID: 11400000, guid: d94d0d64ec3545b408d5621e7d27cf96, type: 2}
+  - AssetId:
+      guid:
+        m_storage: dc36b3fd-c14f-47eb-b36f-d484a67e268a
+      fileIdentifier: 11400000
+    Asset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   - AssetId:
       guid:
         m_storage: f137eba1-2ee1-0834-cb19-632437cfdb2e

@@ -673,14 +673,6 @@ MonoBehaviour:
     shaderName: Standard
     propertyName: _ZWrite
     propertyType: 2
-  - shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
-    shaderName: GUI/Text Shader
-    propertyName: _MainTex
-    propertyType: 4
-  - shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
-    shaderName: GUI/Text Shader
-    propertyName: _Color
-    propertyType: 0
   - shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
     shaderName: TextMeshPro/Mobile/Distance Field
     propertyName: _FaceColor
@@ -1744,4 +1736,648 @@ MonoBehaviour:
   - shader: {fileID: 4800000, guid: d205647913a7f2247a941d09358bc180, type: 3}
     shaderName: SV/BGRToRGB
     propertyName: _YFlip
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 5bdea20278144b11916d77503ba1467a, type: 3}
+    shaderName: Mixed Reality Toolkit/Standard
+    propertyName: _VertexExtrusionSmoothNormals
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 5bdea20278144b11916d77503ba1467a, type: 3}
+    shaderName: Mixed Reality Toolkit/Standard
+    propertyName: _IgnoreZScale
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field
+    propertyName: _Sharpness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+    shaderName: TextMeshPro/Distance Field
+    propertyName: _Sharpness
+    propertyType: 3
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: _Color
+    propertyType: 0
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: PixelSnap
+    propertyType: 2
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: _RendererColor
+    propertyType: 0
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: _Flip
+    propertyType: 1
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: _AlphaTex
+    propertyType: 4
+  - shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    shaderName: Sprites/Default
+    propertyName: _EnableExternalAlpha
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _FaceColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _FaceDilate
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _OutlineColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _OutlineWidth
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _OutlineSoftness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _UnderlayColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _UnderlayOffsetX
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _UnderlayOffsetY
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _UnderlayDilate
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _UnderlaySoftness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _WeightNormal
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _WeightBold
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _ShaderFlags
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _ScaleRatioA
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _ScaleRatioB
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _ScaleRatioC
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _TextureWidth
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _TextureHeight
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _GradientScale
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _ScaleX
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _ScaleY
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _PerspectiveFilter
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _Sharpness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _VertexOffsetX
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _VertexOffsetY
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _ClipRect
+    propertyType: 1
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _MaskSoftnessX
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _MaskSoftnessY
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _MaskTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _MaskInverse
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _MaskEdgeColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _MaskEdgeSoftness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _MaskWipeControl
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _StencilComp
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _Stencil
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _StencilOp
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _StencilWriteMask
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _StencilReadMask
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field - Masking
+    propertyName: _ColorMask
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _FaceColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _FaceDilate
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _OutlineColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _OutlineWidth
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _OutlineSoftness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _UnderlayColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _UnderlayOffsetX
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _UnderlayOffsetY
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _UnderlayDilate
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _UnderlaySoftness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _WeightNormal
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _WeightBold
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _ShaderFlags
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _ScaleRatioA
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _ScaleRatioB
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _ScaleRatioC
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _TextureWidth
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _TextureHeight
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _GradientScale
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _ScaleX
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _ScaleY
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _PerspectiveFilter
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _Sharpness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _VertexOffsetX
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _VertexOffsetY
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _ClipRect
+    propertyType: 1
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _MaskSoftnessX
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _MaskSoftnessY
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _StencilComp
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _Stencil
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _StencilOp
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _StencilWriteMask
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _StencilReadMask
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field Overlay
+    propertyName: _ColorMask
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _FaceTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _FaceUVSpeedX
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _FaceUVSpeedY
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _FaceColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _FaceDilate
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _OutlineColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _OutlineTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _OutlineUVSpeedX
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _OutlineUVSpeedY
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _OutlineWidth
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _OutlineSoftness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _Bevel
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _BevelOffset
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _BevelWidth
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _BevelClamp
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _BevelRoundness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _BumpMap
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _BumpOutline
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _BumpFace
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _ReflectFaceColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _ReflectOutlineColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _Cube
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _EnvMatrixRotation
+    propertyType: 1
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _SpecColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _FaceShininess
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _OutlineShininess
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _GlowColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _GlowOffset
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _GlowInner
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _GlowOuter
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _GlowPower
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _WeightNormal
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _WeightBold
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _ShaderFlags
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _ScaleRatioA
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _ScaleRatioB
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _ScaleRatioC
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _TextureWidth
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _TextureHeight
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _GradientScale
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _ScaleX
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _ScaleY
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _PerspectiveFilter
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _Sharpness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _VertexOffsetX
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+    shaderName: TextMeshPro/Distance Field (Surface)
+    propertyName: _VertexOffsetY
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _FaceTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _FaceColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _FaceDilate
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _OutlineColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _OutlineTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _OutlineWidth
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _OutlineSoftness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _GlowColor
+    propertyType: 0
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _GlowOffset
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _GlowInner
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _GlowOuter
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _GlowPower
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _WeightNormal
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _WeightBold
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _ShaderFlags
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _ScaleRatioA
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _ScaleRatioB
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _ScaleRatioC
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _MainTex
+    propertyType: 4
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _TextureWidth
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _TextureHeight
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _GradientScale
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _ScaleX
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _ScaleY
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _PerspectiveFilter
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _Sharpness
+    propertyType: 3
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _VertexOffsetX
+    propertyType: 2
+  - shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+    shaderName: TextMeshPro/Mobile/Distance Field (Surface)
+    propertyName: _VertexOffsetY
     propertyType: 2
