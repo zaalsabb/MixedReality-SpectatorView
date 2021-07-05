@@ -150,10 +150,11 @@ namespace Microsoft.MixedReality.SpatialAlignment
         /// <returns>The newly created <see cref="GameObject"/>.</returns>
         protected virtual GameObject CreateGameObjectFrom(AnchorLocatedEventArgs args)
         {
-            Pose pose = args.Anchor.GetAnchorPose();
+            Pose pose = args.Anchor.GetPose();
             Debug.Log($"ASA-Android: Creating an anchor at: {pose.position.ToString("G4")}, {pose.rotation.eulerAngles.ToString("G2")}");
             GameObject gameObject = SpawnGameObject(pose.position, pose.rotation);
-            gameObject.AddARAnchor();
+            gameObject.FindOrCreateNativeAnchor();
+
             return gameObject;
         }
 
@@ -305,14 +306,15 @@ namespace Microsoft.MixedReality.SpatialAlignment
                 GameObject spawnedAnchorObject = SpawnGameObject(worldPosition, worldRotation);
                 try
                 {
-                    spawnedAnchorObject.AddARAnchor();
+                    // Use var here, type varies based on platform
+                    var nativeAnchor = spawnedAnchorObject.FindOrCreateNativeAnchor();
 
                     // Let a frame pass to ensure any AR anchor is properly attached (WorldAnchors used to have issues with this)
                     await Task.Delay(100, cancellationToken);
 
                     CloudSpatialAnchor cloudSpatialAnchor = new CloudSpatialAnchor()
                     {
-                        LocalAnchor = spawnedAnchorObject.GetNativeAnchorPointer(),
+                        LocalAnchor = nativeAnchor.GetPointer(),
                         Expiration = DateTime.Now.AddDays(1)
                     };
 
